@@ -1,0 +1,39 @@
+{
+  "name": "tree-to-flat-map",
+  "description": "Convert a tree to a flat map with dot-separated keys",
+  "version": "1.0.1",
+  "license": "MIT",
+  "keywords": [
+    "flat",
+    "flatten",
+    "nested",
+    "tree",
+    "map",
+    "object",
+    "flat-map",
+    "dot-separated",
+    "keys"
+  ],
+  "author": "Thibault Derousseaux <tibdex@gmail.com>",
+  "repository": "github:tibdex/tree-to-flat-map",
+  "main": "dist/index.js",
+  "module": "dist/tree-to-flat-map.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": ["dist"],
+  "devDependencies": {
+    "tsdx": "^0.14.1",
+    "typescript": "^4.0.5"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "prettier": {
+    "trailingComma": "es5"
+  }
+}
